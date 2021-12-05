@@ -1,6 +1,15 @@
 # QJam2021
 Team Quantum Realm QJam2021 Submission
 
+# Purpose and Goal
+## Research
+An overall goal was to get a working example of a QCNN.  This was our initial end goal in our research exercise.  We reviewed various papers and sample code from several websites.
+
+## Working Example
+The goal of the code was as follows:
+We attempted to categorize two photos using a quantum neural network (cat and frog).
+A similar investigation was conducted using the mnist data set; however, because the three-color channel was fixed in the cifar data set, we encountered some challenges and determined our accuracy value to be about 0.50. A 28x28 picture is far too huge for today's quantum computers. Resize the picture to 4x4 and 3x3 pixels. We achieve better results with 4X4, but we plan to use Quantum Image Processing - FRQI and NEQR Image Representations in the future because it's more accurate.
+
 # Environment
 Our team tried various environments/frameworks like Anaconda and Google Colab.  After several trials we decided to go with Google Colab since Tensorflow was developed by Google.
 We considered other tools like PennyLane and IBM Q Experience, but we didn't have time to run against those systems however we can attempt to in the future.
